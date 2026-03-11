@@ -1,0 +1,6 @@
+{
+  "name": "mern-stack",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix backend\""
+  }
+}
